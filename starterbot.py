@@ -51,8 +51,12 @@ def handle_command(command, channel):
 
     '''acá lo que quiero es que levante el user que envió el mensaje. Es el primer paso para generar un diccionario que vaya sumando cuántas veces le dijeron al bot que ganaron'''
 
-    if command.startswith(won):
-        print (message_text)
+    # if command.startswith(won):
+    #     for event in slack_client.:
+    #         if event['type'] == 'message':
+    #             usr = event['user']
+    #             print (usr)
+    #         else: print('me rompí')
 
     # Sends the response back to the channel
     slack_client.api_call(
